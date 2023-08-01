@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>FA EXHIBITION</title>
+    <!-- ファビコン -->
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-with, initial-scale=1.0">
+    <!-- リセットcss -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- cssファイル -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Google Fonts Source Sans Proフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <a id="logo" href="#">FA EXHIBITION</a>
+        <!-- <a id="menu-btn" class="menu-btn"  >✕</a> -->
+        <div id="menu-btn" class="openbtn"><span></span><span></span><span></span></div>
+        <span></span>
+      <div id="navigation">
+        <a href="#">TOP</a>
+        <a href="#information">INFORMATION</a>
+        <a href="#gallery">GALLERY</a>
+        <a href="#access">ACCESS</a>
+        <a href="#contact">CONTACT</a>
+      </div>
+    </header>
+    <main>
+      <article>
+        <div id="mainvisual">
+          <img src="./images/mainvisual1.jpg" alt="">
+          <img src="./images/mainvisual2.jpg" alt="">
+          <img src="./images/mainvisual3.jpg" alt="">
+        </div>
+        <div class="js-fadeUp">
+          <h1 id="title">Hello Flower!<br>FA EXHIBITION 2021</h1>
+        </div>
+        <section id="information"  class="js-fadeUp-info">
+          <h2>INFORMATION</h2>
+          <div class="info">
+            <h4>2021 JUL 1(THU)-3(SAT)</h4>
+            <p>DAY1 10am-6pm OTHER 10am-5:30pm</p>
+            <h3>at PARK SIDE HALL</h3>
+            <p>2021年7月1日(木)ー3日(土)</p>
+            <p>Day1 10時～18時　その他 10時～17時30分</p>
+          </div>
+        </section>
+        <section id="gallery">
+          <h2  class="js-fadeUp-gal">GALLERY</h2>
+          <div  class="js-fadeUp" id="left1"><img src="images/flower1.jpg" alt=""></div>
+          <div  class="js-fadeUp" id="right1"><img src="images/flower2.jpg" alt=""></div>
+          <div  class="js-fadeUp" id="left2"><img src="images/flower3.jpg" alt=""></div>
+          <div  class="js-fadeUp" id="right2"><img src="images/flower4.jpg" alt=""></div>
+          <div class="js-fadeUp" id="left3"><img src="images/flower5.jpg" alt=""></div>
+          <div class="js-fadeUp" id="right3"><img src="images/flower6.jpg" alt=""></div>
+        </section>
+        <section id="access">
+          <h2>ACCESS</h2>
+          <h3>PARK SIDE HALL</h3>
+          <h4>〒152-0035 東京都目黒区自由が丘1-1-1 PARK SIDE HALL</h4>
+          <h4>PARK SIDE HALL, 1-1-1 Jiyugaoka, Meguro-ku, Tokyo</h4>
+          <div id="access-num">
+            <p>Tel: 03-1111-1111</p>
+            <p>E-mail: info@xxxxxxx.jp</p>
+          </div>
+          <a class="map" href="#">GOOGLE MAP</a>
+        </section>
+        <section id="contact">
+          <h2>CONTACT</h2>
+          <a href="#">出展に関するお問い合わせ</a>
+          <a href="#">その他のお問い合わせ</a>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <span>
+        FA EXHIBITION<br>
+        〒152-0035 東京都目黒区自由が丘1-1-1 PARK SIDE HALL<br>
+        Tel: 03-1111-1111<br>
+        E-mail: info@xxxxxxx.jp
+      </span>
+      <div>
+        <div id="sns">
+          <a class="a" href="#">Twitter</a>
+          <a class="a" href="#">Facebook</a>
+          <a class="a" href="#">Instagram</a>
+        </div>
+        <div id="footer-logo">
+          <a class="a" href="#">PRIVACY POLICY</a>
+          <span>&copy; FA EXHIBITION</span>
+        </div>
+      </div>
+    </footer>
+    <div id="sidemenu">
+      <div>
+       <a class="sidemenu" id="visitor" href="#">FOR VISITOR</a>
+      </div>
+      <div>
+        <a class="sidemenu" id=exhibitor href="#">FOR EXHIBITOR</a>
+      </div>
+    </div>
+    <div class="bg"></div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/jquery.inview.min.js"></script>
+  </body>
+</html>
